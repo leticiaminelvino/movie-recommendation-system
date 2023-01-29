@@ -7,14 +7,6 @@ def euclidean(rating1, rating2):
       distancia += (rating1[chave] - rating2[chave])**2
   return (distancia)**(1 / 2)
 
-
-#testando
-print(euclidean(users["Renato"], users["Sara"]))
-print(euclidean(users["Renato"], users["Mateus"]))
-print(euclidean(users["Renato"], users["Fabiana"]))
-print(euclidean(users["Renato"], users["Roberta"]))
-
-
 #acho que isso ta errado
 def knn(userName, users):
   distancias = []
@@ -24,12 +16,7 @@ def knn(userName, users):
       if distancia:
         distancias.append((distancia, outro_usuario))
   distancias.sort()
-  return distancias[:4] #mude o k aqui
-
-
-#testando
-print('\n')
-print(knn("Renato", users))
+  return distancias[:5] #mude o k aqui
 
 
 def recommend(username, users):
@@ -49,4 +36,7 @@ def recommend(username, users):
 
 #testando
 print('\n')
-print(recommend('Renato', users))
+print(knn("Almeida", users))
+
+print('\n')
+print(recommend('Almeida', users))
