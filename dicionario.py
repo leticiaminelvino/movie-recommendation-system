@@ -152,7 +152,7 @@ users = {
   'Phineas': {
     'Halloween': 4.0,
     'The Exorcist': 5.0,
-    'Get Out':4.5,
+    'Get Out': 4.5,
     'The Silence of the Lambs': 5.0
   },
   'Renato': {
@@ -161,6 +161,14 @@ users = {
     'The Fault in Our Stars': 5.0,
     'Twilight': 5.0,
     'The Twilight Saga: Breaking Dawn Part 1': 3.0,
+    'The Twilight Saga: Breaking Dawn Part 2': 3.0
+  },
+  'Roberta': {
+    'Titanic': 5.0,
+    'The Notebook': 4.0,
+    'The Fault in Our Stars': 5.0,
+    'Twilight': 5.0,
+    'The Twilight Saga: Breaking Dawn Part 1': 4.0,
     'The Twilight Saga: Breaking Dawn Part 2': 3.0
   },
   'Sara': {
