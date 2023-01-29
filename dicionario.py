@@ -17,7 +17,10 @@ users = {
   'Bianca': {
     'Inception': 5.0,
     'The Matrix': 4.0,
-    'The Terminator': 5.0
+    'The Terminator': 5.0,
+    'Fast and Furious': 4.5,
+    '007': 3.5,
+    'Blade Runner': 4.0
   },
   'Candece': {
     'Star Wars: A New Hope': 5.0,
@@ -169,7 +172,6 @@ users = {
     'The Fault in Our Stars': 5.0,
     'Twilight': 5.0,
     'The Twilight Saga: Breaking Dawn Part 1': 4.0,
-    'The Twilight Saga: Breaking Dawn Part 2': 3.0
   },
   'Sara': {
     'The Notebook': 5.0,
