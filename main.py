@@ -86,20 +86,15 @@ print(recommend('Renato', users))
 print('\n')
 print(recommend('Roberta', users))
 print('\n')
-print(recommend('Ferb', users))
+print(recommend('Sara', users))
 print('\n')
-
-#
 print(recommend('Bianca', users))
 print('\n')
 print(recommend('Candece', users))
 print('\n')
-
-print(recommend('Clara', users))
-print('\n')
-
-
 print(recommend('Ferb', users))
+print('\n')
+print(recommend('Clara', users))
 print('\n')
 print(recommend('Isabele', users))
 print('\n')

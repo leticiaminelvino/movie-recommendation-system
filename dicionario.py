@@ -20,7 +20,11 @@ users = {
     'The Terminator': 5.0,
     'Fast and Furious': 4.5,
     '007': 3.5,
-    'Blade Runner': 4.0
+    'Blade Runner': 4.0,
+     'The Godfather': 4.0,
+    'The Shawshank Redemption': 5.0,
+    'The Dark Knight': 5.0,
+     'Mad Max':4.5
   },
   'Candece': {
     'Star Wars: A New Hope': 5.0,
@@ -44,7 +48,12 @@ users = {
     'The Exorcist': 4.0,
     'Alien': 5.0,
     'The Fault in Our Stars': 3.0,
-    'Titanic': 5.0
+    'Titanic': 5.0,
+    'Avatar': 3.0,
+    'Avengers: Infinity War': 4.0,
+    'Bullet train': 5.0,
+    'Batman the dark knight': 4.5,
+    'Gladiador': 3.5
   },
   'Daniel': {
     'Up': 4.0,
@@ -89,7 +98,11 @@ users = {
     'The Notebook': 5.0,
     'A Star is Born': 4.0,
     'Twilight': 4.5,
-    'Me Before You': 5.0
+    'Me Before You': 5.0,
+    'Avengers: Infinity War': 4.0,
+    'Bullet train': 5.0,
+    'Batman the dark knight': 4.5,
+    'Gladiador': 3.5
   },
   'Gabriela': {
     'Star Wars: A New Hope': 5.0,
@@ -103,7 +116,12 @@ users = {
     'The Expendables': 4.0,
     'Get Out': 4.0,
     'Twilight': 2.0,
-    'Harry Potter': 4.0
+    'Harry Potter': 4.0,
+    'Strange world': 3.0,
+    'The Moon and The Sun': 4.0,
+    'black adam': 5.0,
+    'Rocketman': 4.5,
+    'A star is born': 5.0
   },
   'Jessica': {
     'Alien': 4.0,
@@ -118,28 +136,41 @@ users = {
     'The Exorcist': 4.0,
     'Get Out': 5.0,
     'Halloween': 3.0,
-    'A Quiet Place': 4.0
+    'A Quiet Place': 4.0,
+    'Harry Potter': 4.0,
+    'Strange world': 3.0,
+    'The Moon and The Sun': 4.0,
+    'black adam': 5.0,
+    'Rocketman': 4.5,
+    'A star is born': 5.0
   },
   'Mateus': {
     'Star Wars: A New Hope': 5.0,
     '2001: A Space Odyssey': 4.0,
     'The Martian': 5.0,
     'Interstellar': 4.0,
-    'Alien': 5.0
+    'Alien': 5.0,
+    'Blade Runner': 4.0,
+    'The Matrix': 5.0
   },
   'Mike': {
     'Jurassic Park': 4.0,
     'The Terminator': 5.0,
     'Alien': 4.0,
     'The Thing': 3.0,
-    'Predator': 4.0
+    'Predator': 4.0,
+    'Solaris': 3.0,
+    'The Hitchhikers Guide to the Galaxy': 5.0
   },
   'Murilo': {
     'The Andromeda Strain': 4.0,
     'Solaris': 3.0,
     'Star Wars: A New Hope': 5.0,
     'The Hitchhikers Guide to the Galaxy': 5.0,
-    'Jurassic Park': 4.0
+    'Jurassic Park': 4.0,
+    'The Empire Strikes Back': 5.0,
+    'Guardians of the Galaxy': 4.0,
+    'Star Trek: The Motion Picture': 3.0
   },
   'Paula': {
     'Finding Nemo': 5.0,
