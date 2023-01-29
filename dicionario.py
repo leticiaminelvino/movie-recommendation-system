@@ -26,7 +26,8 @@ users = {
     'Star Wars: A New Hope': 5.0,
     'Blade Runner': 5.0,
     'The Empire Strikes Back': 4.0,
-    'Return of the Jedi': 3.0
+    'Return of the Jedi': 3.0,
+    'Fast and Furious': 3.5
   },
   'Carlos': {
     'Die Hard': 5.0,
@@ -78,7 +79,7 @@ users = {
     'The Lion King': 5.0,
     'Avengers: Endgame': 4.0,
     'The Silence of the Lambs': 5.0,
-    "To All the Boys I've Loved Before": 3.0,
+    'To All the Boys Ive Loved Before': 3.0,
     'The Exorcist': 4.0,
     'The Shining': 5.0,
     'The Notebook': 3.0
@@ -86,19 +87,23 @@ users = {
   'Ferb': {
     'Titanic': 5.0,
     'The Notebook': 5.0,
-    'A Star is Born': 4.0
+    'A Star is Born': 4.0,
+    'Twilight': 4.5,
+    'Me Before You': 5.0
   },
   'Gabriela': {
     'Star Wars: A New Hope': 5.0,
     'Star Wars': 5.0,
     'Blade Runner': 4.0,
-    'The Matrix': 5.0
+    'The Matrix': 5.0,
+    '2001: A Space Odyssey': 5.0
   },
   'Isabele': {
     'The Wizard of Oz': 5.0,
     'The Expendables': 4.0,
     'Get Out': 4.0,
-    'Twilight': 2.0
+    'Twilight': 2.0,
+    'Harry Potter': 4.0
   },
   'Jessica': {
     'Alien': 4.0,
@@ -133,30 +138,36 @@ users = {
     'The Andromeda Strain': 4.0,
     'Solaris': 3.0,
     'Star Wars: A New Hope': 5.0,
-    "The Hitchhiker's Guide to the Galaxy": 5.0
+    'The Hitchhikers Guide to the Galaxy': 5.0,
+    'Jurassic Park': 4.0
   },
   'Paula': {
     'Finding Nemo': 5.0,
     'The Incredibles': 4.0,
     'A Quiet Place': 4.0,
-    'The Notebook': 5.0
+    'The Notebook': 5.0,
+    'Coco': 3.5
   },
   'Paulinha': {
     'The Empire Strikes Back': 5.0,
     'Guardians of the Galaxy': 4.0,
     'Star Trek: The Motion Picture': 3.0,
-    'Star Wars: A New Hope': 5.0
+    'Star Wars: A New Hope': 5.0,
+    'Zatura': 4.5
   },
   'Perry': {
     'The Godfather': 4.0,
     'The Shawshank Redemption': 5.0,
-    'The Dark Knight': 5.0
+    'The Dark Knight': 5.0,
+    '007': 3.5,
+    'Mad Max': 5.0
   },
   'Phineas': {
     'Halloween': 4.0,
     'The Exorcist': 5.0,
     'Get Out': 4.5,
-    'The Silence of the Lambs': 5.0
+    'The Silence of the Lambs': 5.0,
+    'The Witch': 5.0
   },
   'Renato': {
     'Titanic': 5.0,

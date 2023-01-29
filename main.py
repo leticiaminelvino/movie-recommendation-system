@@ -1,6 +1,7 @@
 from dicionario import users
 import math
 
+
 def pearson(rating1, rating2):
   sum_xy = 0
   sum_x = 0
@@ -20,11 +21,13 @@ def pearson(rating1, rating2):
       sum_y2 += pow(y, 2)
   if n == 0:
     return 0
-  denominator = math.sqrt(sum_x2 - pow(sum_x, 2) / n) * math.sqrt(sum_y2 - pow(sum_y, 2) / n)
+  denominator = math.sqrt(sum_x2 - pow(sum_x, 2) /
+                          n) * math.sqrt(sum_y2 - pow(sum_y, 2) / n)
   if denominator == 0:
     return 0
   else:
     return (sum_xy - (sum_x * sum_y) / n) / denominator
+
 
 def knn(userName, users):
   distancias = []
@@ -34,23 +37,27 @@ def knn(userName, users):
       if distancia:
         distancias.append((distancia, outro_usuario))
   distancias.sort()
-  return distancias #mude o k aqui
+  return distancias  #mude o k aqui
+
 
 def recommend(username, users):
-  
-    # first find nearest neighbor
-    nearest = knn(username, users)[0][1] 
 
-    recommendations = []
-    # now find movies neighbor rated that user didn't know
-    neighborRatings = users[nearest]
-    userRatings = users[username]
-    for item in neighborRatings:
-        if not item in userRatings:
-            recommendations.append((item, neighborRatings[item]))
-    # using the fn sorted for variety - sort is more efficient
-    return sorted(recommendations, key=lambda artistTuple: artistTuple[1], reverse = True)
-  
+  # first find nearest neighbor
+  nearest = knn(username, users)[0][1]
+
+  recommendations = []
+  # now find movies neighbor rated that user didn't know
+  neighborRatings = users[nearest]
+  userRatings = users[username]
+  for item in neighborRatings:
+    if not item in userRatings:
+      recommendations.append((item, neighborRatings[item]))
+  # using the fn sorted for variety - sort is more efficient
+  return sorted(recommendations,
+                key=lambda artistTuple: artistTuple[1],
+                reverse=True)
+
+
 #testando
 print('\n')
 print(recommend('Almeida', users))
@@ -79,20 +86,19 @@ print(recommend('Renato', users))
 print('\n')
 print(recommend('Roberta', users))
 print('\n')
-print(recommend('Sara', users))
+print(recommend('Ferb', users))
 print('\n')
 
-#por algum motivo alguns usuarios como 
-#Bianca, Clara, Ferb, Candace, Isabele
-#Murilo, Paulinha, Gabriela, Perry
-#estão dando erro de index
-'''
+#
 print(recommend('Bianca', users))
 print('\n')
 print(recommend('Candece', users))
 print('\n')
+
 print(recommend('Clara', users))
 print('\n')
+
+
 print(recommend('Ferb', users))
 print('\n')
 print(recommend('Isabele', users))
@@ -105,4 +111,3 @@ print(recommend('Gabriela', users))
 print('\n')
 print(recommend('Perry', users))
 print('\n')
-'''
