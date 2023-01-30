@@ -1,6 +1,6 @@
+import tkinter as tk
 from dicionario import users
 import math
-
 
 def pearson(rating1, rating2):
   sum_xy = 0
@@ -57,52 +57,34 @@ def recommend(username, users):
                 key=lambda artistTuple: artistTuple[1],
                 reverse=True)
 
+def show_values(username, users):
+    recommendations = recommend(username, users)
+    text.delete("1.0", tk.END)
+    text.insert(tk.END, f"USER: {username}\n")
+    text.insert(tk.END, f"\nMOVIES RATED:\n")
+    for item, value in users[username].items():
+        text.insert(tk.END, f"{item}: {value}\n")
+    text.insert(tk.END, f"\nRECOMMENDATIONS:\n")
+    for item, value in recommendations:
+        text.insert(tk.END, f"{item}: {value}\n")
 
-#testando
-print('\n')
-print(recommend('Almeida', users))
-print('\n')
-print(recommend('Ana', users))
-print('\n')
-print(recommend('Carlos', users))
-print('\n')
-print(recommend('Daniel', users))
-print('\n')
-print(recommend('Duarte', users))
-print('\n')
-print(recommend('Fabiana', users))
-print('\n')
-print(recommend('Jessica', users))
-print('\n')
-print(recommend('Maria', users))
-print('\n')
-print(recommend('Mateus', users))
-print('\n')
-print(recommend('Mike', users))
-print('\n')
-print(recommend('Paula', users))
-print('\n')
-print(recommend('Renato', users))
-print('\n')
-print(recommend('Roberta', users))
-print('\n')
-print(recommend('Sara', users))
-print('\n')
-print(recommend('Bianca', users))
-print('\n')
-print(recommend('Candece', users))
-print('\n')
-print(recommend('Ferb', users))
-print('\n')
-print(recommend('Clara', users))
-print('\n')
-print(recommend('Isabele', users))
-print('\n')
-print(recommend('Murilo', users))
-print('\n')
-print(recommend('Paulinha', users))
-print('\n')
-print(recommend('Gabriela', users))
-print('\n')
-print(recommend('Perry', users))
-print('\n')
+root = tk.Tk()
+root.geometry("400x600")
+root.title("Movie Recommendation System")
+
+label = tk.Label(root, text="Select User:")
+label.pack(pady=10)
+
+user_var = tk.StringVar(root)
+user_var.set("Almeida")
+
+dropdown = tk.OptionMenu(root, user_var, *users.keys())
+dropdown.pack()
+
+button = tk.Button(root, text="Show Recommendations", command=lambda: show_values(user_var.get(), users))
+button.pack(pady=10)
+
+text = tk.Text(root, height=30, width=50)
+text.pack()
+
+root.mainloop()
