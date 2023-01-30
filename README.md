@@ -1,3 +1,2 @@
 # movie-recommendation-system
-Sistema de Recomendação de filmes simples usando filtragem colaborativa, correlação de pearson e KNN.
-O dataset usado é um dicionário com o nome do usuário, os filmes que ele avaliou e a nota. GUI feito com a biblioteca tkinter e compilado na plataforma Replit
+A simple movie recommendation system using collaborative filtering, pearson correlation and KNN. The dataset used is a dictionary with the user's name, the movies they rated and the rating (1.0 to 5.0). The GUI was made with the tkinter library and compiled on Replit.
